@@ -1,7 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import { BrowserRouter } from "react-router-dom";
 
-import { Router } from "./Router";
+import { Router } from "./routes/Router";
 import { CyclesContextProvider } from "./contexts/CyclesContext";
 
 import { GlobalStyle } from "./styles/global";
